@@ -18,5 +18,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y apt-utils
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y libtinfo5
 # TODO: Get rid of this in favor of a sysroot.
+# Wait for this patch to ship in rules_rust:
+# https://github.com/bazelbuild/rules_rust/issues/635
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y clang-10
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y libxml2
