@@ -1,4 +1,4 @@
-# dockerfiles
+# Dockerfiles
 A repository of the minimum Ubuntu 20.04 Dockerfiles needed for various tasks.
 
 [ubuntu_20_04_bazel_with_cc_toolchain](ubuntu_20_04_bazel_with_cc_toolchain/Dockerfile) tracks the minimum image needed for Rust/C++ binaries in Remote Bazel.
