@@ -12,5 +12,3 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get install -y pkg-config
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y texinfo
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y zlib1g
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y zlib1g-dev
-
-
