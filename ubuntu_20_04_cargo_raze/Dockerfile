@@ -16,7 +16,6 @@ FROM ubuntu:focal
 
 RUN DEBIAN_FRONTEND=noninteractive apt-get update
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y apt-utils
-RUN DEBIAN_FRONTEND=noninteractive apt-get install -y ca-certificates
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y gcc
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y g++
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y autotools-dev
