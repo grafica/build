@@ -1,1 +1,1 @@
-WORKSPACE
+workspace(name = "grafica_build")
