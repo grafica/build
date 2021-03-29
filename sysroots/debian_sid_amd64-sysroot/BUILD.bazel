@@ -1,0 +1,12 @@
+filegroup(
+    name = "sysroot",
+    srcs = glob([
+        "debian/**/*",
+        "etc/**/*",
+        "lib/**/*",
+        "lib64/**/*",
+        "usr/**/*",
+        "var/**/*"      
+    ],),
+    visibility = ["//visibility:public"],
+)
